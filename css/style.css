@@ -15,7 +15,6 @@ body{
 	padding-top: 380px;
 	margin: 0;
 	font-size: 48px;
-
 }
 
 .main p{
@@ -88,4 +87,106 @@ body{
 	margin: 0;
 	padding-top: 40px;
 	font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+	.main p{
+		font-size: 20px;
+		margin-bottom: 30px;
+		padding: 20px;
+	}
+
+	.main{
+		background: url("../img/main.jpg");
+		height: 100%;
+		background-position: bottom;
+		background-position: right;
+		text-align: center;
+		color: #926239;
+	}
+
+	.first{
+		background-color: #926239;
+		height: 220px;
+		text-align: center;
+		color: white;
+	}
+
+	.second{
+		background-color: #F4F4F4;
+		height: 220px;
+		text-align: center;
+		color: #926239;
+	}
+
+	.third p{
+		height: 120px;
+		margin: 0;
+		padding-top: 40px;
+		font-size: 20px;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+	.first{
+		background-color: #926239;
+		height: 270px;
+		text-align: center;
+		color: white;
+	}
+
+	.second{
+		background-color: #F4F4F4;
+		height: 270px;
+		text-align: center;
+		color: #926239;
+	}
+
+	.third p{
+		height: 140px;
+		margin: 0;
+		padding-top: 40px;
+		font-size: 20px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+	.main h1{
+		padding-top: 250px;
+		margin: 0;
+		font-size: 48px;
+	}
+
+	.first{
+		background-color: #926239;
+		height: 480px;
+		text-align: center;
+		color: white;
+	}
+
+	.second{
+		background-color: #F4F4F4;
+		height: 480px;
+		text-align: center;
+		color: #926239;
+	}
+
+	.third p{
+		height: 220px;
+		margin: 0;
+		padding-top: 20px;
+		font-size: 20px;
+	}
 }
